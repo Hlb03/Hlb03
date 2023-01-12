@@ -57,6 +57,43 @@
 | ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | 🟩 Reflection         |                      |                          |
 
+## Java basics
+
+| Collections           | Multithreading               | Network          | Technique        | Problems             |
+|----------------------|------------------------------|-------------------|------------------|----------------------|
+|    List              | 🟩 Semaphores               | 🟦 TCP/SSL        | 🟩 Testing       | 🟦 Resource leaks    |
+| 🟩 Arrays List       | 🟩 Critical sections        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
+| 🟩 Linked List       | 🟩 Synchronized blocks      | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
+| 🟩 Vector            | 🟩 Locks                    | 🟦 Websocket      | 🟦 Writable      | 🟦 Graceful Shutdown |
+|   Queue              | 🟩 Barriers                  | ⬜ SSE            | 🟦 Transform     | 🟩 Dependencies      |
+| 🟩 PriorityQueue     |                              | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
+|   Deque              |                              | ⬜ Long polling   | 🟩 Buffer        |                      |
+| 🟩 ArrayDeque        |                             | 🟩 REST           | 🟩 Console       |                      |
+|   Set                |                              | 🟦 RPC            | 🟦 Inspector     |                      |
+| 🟩 HashSet           |                             | 🟦 Routing        | 🟦 Reliability   |                      |
+| 🟩 LinkedHasSet      |                             | 🟦 IP sticky      | 🟦 Quality       |                      |
+|   Sorted Set         |                              | 🟦 DoS            | 🟦 Availability  |                      |
+| 🟩 TreeSet           |                             | 🟩 DDoS           | 🟦 Flexibility   |                      |
+|   Map                |                              | 🟩 XSS            |                  |                      |
+| 🟩 HashMap           |                             | 🟦 Path traversal |                  |                      |
+| 🟩 LinkedHashMap     |                             | 🟩 CSRF           |                  |                      |
+| 🟩 HashTable         |                             | 🟦 DNS            |                  |                      |
+| 🟩 TreeMap           |                             |                   |                  |                      |
+|                      |                              |                   |                  |                      |
+
+## Technique skills
+
+| Spring               | Data access                  | Java EE           | Other            | 
+|----------------------|------------------------------|-------------------|------------------|
+| 🟩 Spring Boot      | 🟩 Hibernate                 | 🟩 Servlets      | 🟩 Unit Testing  |
+| 🟩 Spring Data      | 🟩 JDBC                      | 🟩 Filters       | 🟩 Mockito       |
+| 🟩 Spring Secutiry  |                              |                   | 🟩 MySQL         | 
+|                     |                               |                   | 🟩 Themeleaf    |
+|                      |                              |                   | 🟩 JSP (JSTL)    |
+|                      |                              |                   | 🟩 Maven
+
+
+--------------------------------------------------------- END ---------------------------------------------------------
 ## Asynchronous programming
 
 | Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques               |
